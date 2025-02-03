@@ -1,4 +1,5 @@
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -93,6 +94,16 @@ main {
     .hero img{
         width: 100%;
         height: auto;
+    }
+    video{
+        width: 90%;
+        margin-left: 5%;
+    }
+    details{
+        margin: .5rem $gutter;
+        summary{
+            background-color: beige;
+        }
     }
 }// end main
 

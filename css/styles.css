@@ -301,6 +301,12 @@ template {
 }
 
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+@media (max-width: 768px) {
+  .video-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -380,6 +386,16 @@ main p {
 main .hero img {
   width: 100%;
   height: auto;
+}
+main video {
+  width: 90%;
+  margin-left: 5%;
+}
+main details {
+  margin: 0.5rem 10px;
+}
+main details summary {
+  background-color: beige;
 }
 
 /* --------------------------- FOOTER --------------------------- */
