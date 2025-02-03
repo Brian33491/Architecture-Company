@@ -377,6 +377,10 @@ main p {
   color: #333;
   line-height: 150%;
 }
+main .hero img {
+  width: 100%;
+  height: auto;
+}
 
 /* --------------------------- FOOTER --------------------------- */
 #footerWrapper {
